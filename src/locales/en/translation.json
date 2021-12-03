@@ -1,0 +1,16 @@
+{
+  "addLed": "Add LED",
+  "email": "Email",
+  "tel": "Tel",
+  "userIDNumber": "User ID Number",
+  "name": "Name",
+  "submit": "Submit",
+  "password": "Password",
+  "firstName": "First Name",
+  "lastName": "Last Name",
+  "mobile": "Mobile",
+  "confirmPassword": "Confirm Password",
+  "register": "Register",
+  "login": "Login"
+
+}

@@ -1,0 +1,72 @@
+input.PhoneInputInput{
+    padding: 6px !important;
+    padding-left: 50px !important;
+    &:focus{
+        padding-left: 50px !important;
+    }
+}
+
+.PhoneInput {
+    position: relative;
+}
+.PhoneInputCountry{
+    margin-top: -14px;
+    position: absolute !important;
+    top: 50%;
+    left: 4%;
+}
+:root {
+    --primary-color: hsl(196, 78%, 61%);
+  }
+
+.signuppage{
+    height: 100vh;
+    .signup.container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100%;
+        width: 100%;
+
+        .card{
+         
+            position: relative;
+    z-index: 1;
+    background: #FFFFFF;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: 0 auto 0px;
+    padding: 10px 50px;
+    text-align: center;
+    .lock{
+      font-size: 75px;
+    color: #4b6cb7;
+    }
+    input{
+      outline: 0;
+    background: #f2f2f2;
+    width: 100%;
+    border: 1px solid #4b6cb7;
+    border-radius: 5px;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+    font-family: 'Comfortaa', cursive;
+    }
+            .submitbtn{
+                display: flex;
+                justify-content: center;
+                background: #4b6cb7;
+    width: 100%;
+    color: #fff;
+    button{
+      color: #fff;
+    }
+            }
+           
+        }
+    }
+
+    
+}

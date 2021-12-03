@@ -1,0 +1,81 @@
+#app{
+    .container-fluid{
+        padding-left: unset;
+    }
+    .closemenu {
+        position: absolute;
+        z-index: 9999999999;
+       
+        top: 18%;
+        color: #fff;
+        line-height: 20px;
+        border-radius: 50%;
+        font-weight: bold;
+        font-size: 22px;
+        cursor: pointer;
+        img{
+            width: 32px;
+        }
+    }
+    .scrollable {
+        overflow: scroll;
+        height: calc(100vh - 85px);
+        &::-webkit-scrollbar {
+            width: 5px;
+          }
+    }
+    .mobilead{
+        width: 100%;
+        position: relative;
+        img{
+            width: 100%;
+        }
+        .mcontent {
+            position: absolute;
+            padding: 20px;
+            h6{
+                color: #000000;
+                font-size: 28px;
+                font-family: moderneraextrabold;
+            }
+            p{
+                font-family: moderneramedium;
+                font-size: 19px;
+                color: #222222;
+            }
+            .dapp{
+                text-align: center;
+                color: #fff;
+                text-transform: uppercase;
+                font-family: moderneraextrabold;
+                font-size: 17px;
+                width: 168px;
+                height: 42px;
+                line-height: 42px;
+                background-color: #000;
+                border-radius: 5px;
+            }
+        }
+    }
+    .footer {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        right: 0;
+        height: 85px;
+    }
+}
+
+@media only screen and (max-width: 720px) {
+    #app{
+    .footer {
+        width: 100% !important;
+    }
+    .container-fluid{
+        padding: unset;
+    }
+    .mobilead{
+        padding: 0 10px;
+    }
+}
+}

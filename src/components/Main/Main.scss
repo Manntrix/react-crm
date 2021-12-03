@@ -1,0 +1,132 @@
+#maincontent{
+    padding: 20px 10px;
+    .popularsongs{
+        position: relative;
+        h3{
+            font-size: 20px;
+            font-weight: bolder;
+            margin: unset;
+        }
+        h6{
+            font-size: 14px;
+        }
+        .viewmore{
+                position: absolute;
+                right: 0;
+                top: 0; 
+                background: #000;
+                height: 22px;
+    line-height: 22px;
+    width: 74px;
+                border-radius: 5px;
+                cursor: pointer;
+                p{
+                    margin-bottom: unset;
+    color: #fff;
+    text-align: center;
+    font-size: 11px;
+                }
+        }
+    }
+    .searchbox{
+        position: relative;
+        input{
+            &::placeholder{
+                letter-spacing: -0.19px;
+                font-size: 19px;
+                font-family: moderneramedium;
+            }
+        }
+        .searchicon{
+            position: absolute;
+            right: 15px;
+            top: 30%;
+            cursor: pointer;
+            svg{
+                font-size: 22px;
+            }
+        }
+    }
+    .searchbox input{
+        width: 100%;
+        box-shadow: 0.5px 0.866px 2px 0px rgba(0, 0, 0, 0.15);
+        border-radius: 5px; background-color: rgb(255, 255, 255); 
+        border: unset;
+        padding: 10px 15px;
+        height: 64px;
+        line-height: 64px;
+        outline: unset;
+    }
+    .banner{
+        margin: 20px 0;
+        width: 100%;
+        height: 250px;
+        position: relative;
+        background-size: cover;
+        border-radius: 5px;
+        .hymn{
+            width: 150px;
+            font-family: moderneramedium;
+height: 33px;
+line-height: 33px;
+border-radius: 0px 0px 0px 4px;
+background-color: #CB2121;
+color: #fff;
+text-align: center;
+position: absolute;
+right: 0;
+top: 0;
+font-size: 17px;
+        }
+        .cont{
+            position: absolute;
+            top: 50%;
+            padding: 0 50px;
+            width: 70%;
+            transform: translate(0, -50%);
+            h6{
+                font-size: 15px;
+                color: #000;
+                text-transform: uppercase;
+            }
+            h2{
+                font-family: moderneraextrabold;
+                font-size: 32px;
+            }
+            p{
+                font-size: 20px;
+                color: #333333;
+                font-family: moderneraregular;
+            }
+            .pnow{
+                cursor: pointer;
+                width: 142px;
+                height: 42px;
+                line-height: 42px;
+                color: #fff;
+                background-color: #000;
+                text-align: center;
+                text-transform: uppercase;
+                border-radius: 5px;
+            }
+        }
+       
+        img{
+            width: 100%;
+            padding: 20px 0;
+        }
+    }
+    
+}
+
+
+@media only screen and (max-width: 720px) {
+    #maincontent{
+    .banner {
+        .cont{
+            width: 100%;
+        }
+    }
+  
+}
+}

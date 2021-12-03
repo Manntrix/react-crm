@@ -1,0 +1,24 @@
+@font-face {
+  font-family: moderneramedium;
+  src: url('./assets/fonts/ModernEra-Medium.woff');
+}
+
+@font-face {
+  font-family: moderneraextrabold;
+  src: url('./assets/fonts/ModernEra-ExtraBold.woff');
+}
+
+@font-face {
+  font-family: moderneraregular;
+  src: url('./assets/fonts/ModernEra-Regular.woff');
+}
+
+body {
+  background-color: #efefef !important;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-family: moderneramedium !important;
+}
+
+
